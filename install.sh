@@ -15,6 +15,7 @@ brew install graphviz
 
 # Install languages
 brew install node
+brew install yarn
 brew install rbenv
 brew install python
 brew install go
@@ -38,7 +39,6 @@ brew install caskroom/cask
 
 # Install applications
 brew cask install --appdir="/Applications" docker
-brew cask install --appdir="/Applications" expressvpn
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" iterm2
@@ -50,12 +50,8 @@ brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" steam
 brew cask install --appdir="/Applications" transmission
 
-# RU
-brew cask install --appdir="/Applications" zoomus
-
-# Annata specifics
+# work specifics
 brew cask install --appdir="/Applications" dotnet
-brew cask install --appdir="/Applications" yammer
 brew cask install --appdir="/Applications" microsoft-teams
 
 # Visual Studio Code Insiders
