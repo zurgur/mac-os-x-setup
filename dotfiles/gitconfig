@@ -24,5 +24,5 @@
 	dh = diff --color-words head
 	alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\\t => \\2/' | sort
 [user]
-	name = Bjarki Gudlaugsson
-	email = bjarkigud@gmail.com
+	name = Alexander Freyr sveinsson
+	email = alexander@vordur.is
